@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.btn {
+
+    @apply py-6 px-2 text-2xl uppercase bg-green-200  text-red-700 font-bold ml-8;
+}
+
+.btn:hover{
+
+    @apply bg-green-800 text-white;
+}
+
+.common{
+
+    @apply p-4 text-justify;
+    @apply md:w-1/2 xl:w-1/4;
+
+}
